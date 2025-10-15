@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversation Task</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .task-button {
+            display: inline-block;
+            padding: 20px 40px;
+            margin: 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+            min-width: 120px;
+        }
+        .task-button:hover {
+            background-color: #0056b3;
+        }
+        .task-a {
+            background-color: #dc3545; /* 赤 */
+        }
+        .task-a:hover {
+            background-color: #c82333;
+        }
+        .task-b {
+            background-color: #007bff; /* 青 */
+        }
+        .task-b:hover {
+            background-color: #0056b3;
+        }
+        .description {
+            margin: 20px 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Conversation Task</h1>
+        <p class="description">Let's start with Aさん first. Please press the Aさん button.﻿</p>
+        
+        <div>
+            <a href="taskA.html" class="task-button task-a">Aさん</a>
+        </div>
+        <div>
+            <a href="taskB.html" class="task-button task-b">Bさん</a>
+        </div>
+        
+        <p class="description">When you press the button, it will move to the PDF viewer. <br>Once it moves, please press the ">>" button at the top right <br>and select the presentation mode.</p>
+    </div>
+</body>
+</html>
